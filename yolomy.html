@@ -1,53 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Yolomy</title>
+  <link rel="stylesheet" type="text/css" href="yolomy.css">
+
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
 </head>
+
 <body>
-   <header>
-	<h2>Yolomy</h2>
-	<a href="#">Home </a>
-	<a href="#">Products </a>
-	<a href="#">Image </a>
-   </header>
+<header>
+
+<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><img src="images/logo.png"></a>
+      <div id="nav-mobile" class="right hide-on-med-and-down">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="collapsible.html"><img src="images/shop.png"></a>
+      </div>
+    </div>
+  </nav>
+
   <section>
-  	<h1>Our clothing, your comfort</h1>
-  	<p>We understand that you need to look good and feel great. It all starts with what you are wearing.</p>
-  	<p>mouse click</p>
-  </section> 
-   <article>
-   	<input type="text">
-   	<input type="text">
-   	<input type="text">
-   	<button>SEE ALL PRODUCTS</button>
-   	<p>MEN</p>
-   	<img src="">
-   	<img src="">
-   	<img src="">
-   	<p>WOMEN</p>
-   	<img src="">
-   	<img src="">
-   	<img src="">
-   	<h3>ABOUT US</h3>
-   	<p>This is where-high fashion clothing is designed and crafted from the heart by an amazing team of craftsmen and designers who understand what fashion is.</p>
-   	<img src=""><p>"SALE: Buy anything for 45% off. Use the promo COME YOLOMY45 when you buy items</p>
-   	<h2>YOLOMY</h2>
-   	<p>WE ARE YOLOMY- WE UNDERSTAND FASHIN AND STYLE. WE CRAFT OUR PRODUCTS WITH LOVE AND DILIGENCE.</p>
-   	<h3>We are social</h3>
-   <ul>
-   	<li><img src="">
-   	<img src="">
-   	<img src=""></li>
-   	<li><img src="">
-   	<img src="">
-   	<img src=""></li>
-   	</ul>
-   	<p>CREDITS| PRIVACY| ABOUT| CONTACT</p>
-   	<p>Yolomy: We Mean Fashion</p>
-   </article>
-   <footer>
-   	COPYRIGHT 2015. YOLOMY INC
-   </footer>
+
+     <div class="OurClothing" style="padding: 300px 0px 350px 0px;">
+  	   <h1>Our clothing, your comfort</h1>
+  	    <p style="font-size: 32px;">We understand that you need to look good and feel great.<br> It all starts with what you are wearing.</p>
+     </div>
+
+  	<img style="padding: 200px 0px 0px 50px;" src="images/mouse_click.png">
+    
+  </section>
+</header>
+
+  <article>
+     <form>
+   	   <input type="checkbox" name="CARTEGORY" value="MEN">  MEN</input>
+   	  <input type="checkbox" name="CARTEGORY" value="WOMEN">  WOMEN</input>
+      <input type="checkbox" name="CARTEGORY" value="CHILDREN">  CHILDREN</input>
+   	  <button style="20px 0px 5px 0px;">SEE ALL PRODUCTS</button>
+     </form>
+
+   	<div style="padding:50px 0px 0px 50px;">MEN<hr style="display:inline-block; width:1000px;"/>
+    </div>
+
+   
+    <div id="ImagesMen">
+   	   <div id="tshirt" class="prod"><img src="images/tshirt.png"></div>
+   	   <div id="pants" class="prod"><img src="images/pants.png"></div>
+   	   <div id="backpack" class="prod"><img src="images/backpack.png"></div>
+    </div>
+
+   	<div style="padding:50px 0px 0px 50px;">WOMEN<hr style="display:inline-block; width:1000px;"/></div>
+
+    <div id="ImagesWomen">
+   	   <div id="giacket" class="prod"><img src="images/giacket.png"></div>
+   	   <div id="trekkingshoes" class="prod"><img src="images/trekkingshoes.png"></div>
+   	   <div id="tshirt_ladies" class="prod"><img src="images/tshirt_ladies.png"></div>
+    </div>
+   
+   <div id="LowerPart">
+    <div class="AboutUs">
+   	  <h3>ABOUT US</h3>
+   	   <p>This is where-high fashion clothing is <br>designed and crafted from the heart by <br> an amazing team of craftsmen and<br> designers who understand what fashion <br>is.</p>
+    </div>
+
+    <div class="Sale">
+   	   <div id="Twitter"><img src="images/twitter_bird.png"></div>
+       <div class="Buy"><p>"SALE: Buy anything for 45% off. Use the promo COME YOLOMY45 when you buy items"</p></div>
+    </div>
+    
+    <div id="Chini">
+       <div id="Yolomy">
+   	      <h3>YOLOMY</h3>
+   	      <p>WE ARE YOLOMY- WE UNDERSTAND<br> FASHION AND STYLE. WE CRAFT OUR<br> PRODUCTS WITH LOVE AND DILIGENCE.</p>
+        </div>
+
+       <div id="Social">
+   	      <h3>We are social</h3>
+             <ul class="Bottom">
+   	           <li><img src="images/g_plus.png">
+   	           <img src="images/facebook.png">
+   	           <img src="images/you_tube.png">
+               <img src="images/stumble_upon.png"></li>
+   	           <li><img src="images/skype.png">
+   	           <img src="images/flickr.png">
+   	           <img src="images/twitter.png">
+               <img src="images/pinterest.png"></li>
+   	         </ul>
+        </div>
+
+       <div id="Credits">
+   	      <p>CREDITS| PRIVACY| ABOUT| CONTACT</p>
+   	      <p>Yolomy: We Mean Fashion</p>
+       </div>
+
+
+       <footer>
+   	   COPYRIGHT 2015. YOLOMY INC
+       </footer>
+
+    </div> 
+  </div>
+  </article>
+    
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
 
 </body>
 </html>

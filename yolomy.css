@@ -1,0 +1,110 @@
+header{
+   
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: top center !important;
+ }
+ .AboutUs{
+ 	background-image: url("images/about.jpg");
+ 	background-size: cover;
+ 	text-align: center;
+ 	font-size: 25px;
+ 	padding: 50px 0px 30px 0px;
+ }
+ section{
+ 	text-align: center;
+ 	color: white;
+ 	
+ }
+ h1{
+ 	font-size: 70px;
+ }
+ 
+ button{
+ 	float: right;
+ 	background-color: #660000;
+ 	color: white;
+ }
+ form{
+ 	margin: 40px;
+ 	background-color: #CFCFC4;
+ 	padding: 20px 0px 5px 0px;
+ 	font-size: 25px;
+ }
+ #nav-mobile{
+ 	float: right;
+ }
+
+ #tshirt , #pants{
+    width: 33%;
+    float: left;
+ }
+.prod:hover{
+border: 3px solid gray;
+box-shadow: 0px 0px 0px 1px #eee;
+}
+
+ #backpack{
+    width: auto;
+ }
+
+ #giacket , #trekkingshoes{
+    width: 33%;
+    float: left;
+ }
+
+ #tshirt_ladies{
+    width: auto;
+ }
+
+#Twitter{
+	width: 10%;
+	float: left;
+}
+
+#Buy{
+	width: 90%;
+	float: right;
+	font-size: 30px;
+}
+
+#Yolomy {
+    width: 33%;
+    float: left;
+ }
+
+#Social{
+    width: 34%;
+    float: left;
+ }
+
+ #Credits{
+    width: 33%;
+    float: right;
+ }
+
+ .Bottom li{
+ 	list-style: none;
+ }
+
+ 
+ .Sale{
+ 	background-color: #D0D0D0;
+ 	font-size: 25px;
+ }
+
+ #Chini{
+ 	background-color: #484848;
+ 	font-size: 25px;
+ }
+
+ #LowerPart{
+ 	color: white;
+ }
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+
+}
